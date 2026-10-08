@@ -1,0 +1,22 @@
+#! /usr/bin/vvp
+:ivl_version "12.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/tmp/tinysign-iverilog/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/tmp/tinysign-iverilog/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/tmp/tinysign-iverilog/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/tmp/tinysign-iverilog/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/tmp/tinysign-iverilog/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x61f3d6c0cca0 .scope module, "failure_exit_probe" "failure_exit_probe" 2 1;
+ .timescale 0 0;
+    .scope S_0x61f3d6c0cca0;
+T_0 ;
+    %vpi_call 2 1 "$display", "EXPECTED FAILURE PROBE" {0 0 0};
+    %vpi_call 2 1 "$stop" {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "/home/mateus/Documents/Peruri/TinySign/sim/iverilog/build/failure_exit_probe.v";
