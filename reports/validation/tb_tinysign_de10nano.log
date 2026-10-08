@@ -1,0 +1,7 @@
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:59: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+PASS: DE10-Nano Avalon-MM shell elaboration, status read, command write and byte enables
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_tinysign_de10nano.v:20: $finish called at 81000 (1ps)

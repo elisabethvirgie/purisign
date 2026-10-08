@@ -1,0 +1,10 @@
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:59: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+PASS SHA-256 len=0 cycles=67
+PASS SHA-256 len=3 cycles=67
+PASS SHA-256 len=56 cycles=134
+PASS: SHA-256 empty, abc, and 56-byte standard vectors
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_sha256_hash.v:46: $finish called at 2751000 (1ps)

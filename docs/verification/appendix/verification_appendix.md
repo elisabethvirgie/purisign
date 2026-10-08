@@ -1,0 +1,8 @@
+# Verification Appendix — PURI-Sign
+
+PURI-Sign is a security-oriented RTL prototype for deterministic ECDSA signing on NIST P-256, using RFC6979 with HMAC-SHA-256. The maintained RTL is Verilog-2001; Icarus Verilog simulations and a Python P-256 reference model provide functional evidence. A current-session rerun passed all 9 Python reference tests. Timestamped repository evidence records a passing full RTL regression and a 254/254 exact Python/RTL modular arithmetic comparison; Icarus could not be rerun in the current Windows environment because Icarus/vvp are unavailable and WSL could not start.
+
+The captured ECDSA test matches both `r` and `s` exactly against the RFC6979 Appendix A.2.5 P-256 known-answer vector. An independent Python verifier passes. The test vector's private key is redacted. Security-oriented simulations cover staged key provisioning, range rejection, key lock/overwrite rejection, zero private-key MMIO readback, signature-register readback, and zeroization of key/signing state. These checks demonstrate behavior along tested RTL paths; they do not establish physical tamper resistance, side-channel resistance, fault resistance, or production secure-element assurance.
+
+Recorded Yosys structural checks passed for core, wrapper, and self-test tops. One experimental Yosys Cyclone V wrapper mapping exited `-9`; this is a tool-run failure, separate from the FPGA status. **Quartus compile and synthesis: NOT RUN / BLOCKED. Place-and-route, timing analysis, `.sof` generation, and physical DE10-Nano validation: NOT RUN.** No FPGA resource, timing, or board-performance claim is made. Selected ECC edge coverage remains open, including explicit infinity-operand tests. See the full report and evidence transcripts in `docs/verification/`.
+

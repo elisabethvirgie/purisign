@@ -1,0 +1,2 @@
+PASS: modular add/sub/mul/inv boundaries for P-256 p and n
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_mod_arith.v:107: $finish called at 2725411000 (1ps)

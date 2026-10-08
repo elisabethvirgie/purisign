@@ -1,0 +1,2 @@
+Scalar values in this copied console transcript were redacted because the vectors include key-like test inputs.
+Pass/fail text and measured cycle counts are preserved. The source testbench display was also updated to suppress scalar input values.

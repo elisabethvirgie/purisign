@@ -1,0 +1,8 @@
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:59: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/rtl/sha256/sha256_compress.v:60: warning: @* is sensitive to all 64 words in array 'w'.
+PASS: register-controlled provisioning, lock, and ECDSA signature readback
+PASS: zeroize interrupts signing and clears register-visible and internal signer state
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_tinysign_core.v:53: $finish called at 147415993000 (1ps)

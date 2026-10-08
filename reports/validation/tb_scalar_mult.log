@@ -1,0 +1,9 @@
+PASS scalar vector completed cycles=7169024
+PASS scalar vector completed cycles=7169024
+PASS scalar vector completed cycles=7169024
+PASS scalar vector completed cycles=7169024
+PASS scalar vector completed cycles=7169024
+PASS scalar vector completed cycles=7169024
+PASS scalar vector completed cycles=7169024
+PASS: fixed-round Montgomery ladder scalar multiplication
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_scalar_mult.v:76: $finish called at 501831831000 (1ps)

@@ -1,0 +1,2 @@
+PASS: P-256 Jacobian point double/add, equality and inverse-point cases
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_point_ops.v:53: $finish called at 333621000 (1ps)

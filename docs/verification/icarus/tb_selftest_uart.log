@@ -1,0 +1,2 @@
+PASS: UART report framing, measured cycle fields, pass/fail, restart
+/mnt/c/Users/evph1/Documents/ChatGPT/Peruri Chip Hackathon/TinySign_Verilog/tb/tb_selftest_uart.v:32: $finish called at 24260000 (1ps)
